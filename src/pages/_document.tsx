@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
-          <link rel="stylesheet" href="https://use.typekit.net/vsb0smv.css" />
+            <link rel="stylesheet" href="https://use.typekit.net/jbz3npw.css"/>
         </Head>
         <body>
           <Main />

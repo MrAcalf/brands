@@ -1,10 +1,18 @@
 # Brands website personal project
 
-## Objectives
+## Components folder categories
+The components folder have 3 main categories to separate website structure into sessions of responsability.
 
-1. Create a good website UI to be reused as template
-2. Make it with translations feature
-3. To be an website with sessions that can used as a readable web book.
-4. Mobile first and responsive
-5. Acessibilyty features on
-6. Easy to read and with a good contrast color palete
+The Structural Components are the grid of the page based on its function.
+
+The Layout components are are the components inside the page structure that compose the cards, navbars, footers and all complex components that are needed to complete the structure of the page
+
+The Utility components are the lower level of components with a single function to compose the layout components
+### Utility Components - src/components/utilityComponents
+        Small parts of an component like buttons, inputs, textAreas, etc.
+### Structural Components - src/components/structuralComponents
+        - Components that composes the website basic - structural with its main pages grids
+### Layout Componnts - src/components/layoutComponents
+        - The complex components that is composed by UtilityComponents inside
+
+StructuralComponents have layout components inside and the layout components has its utility components inside
