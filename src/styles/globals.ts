@@ -2,8 +2,8 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
     :root {
-        --mra-green: #37c8ab;
-        --mra-black: #1a1a1a;
+        --green: #37c8ab;
+        --black: #1a1a1a;
         --white: #fff;
     }
 
@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     html, body {
-      font-family: source-sans-pro,sans-serif;
+      font-family: darkmode-on, sans-serif;
       font-weight: 400;
       font-style: normal;
       height: 100vh;
@@ -43,7 +43,7 @@ export const GlobalStyle = createGlobalStyle`
         radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%,
         rgba(0,0,0,0.50) 100%);
         background-blend-mode: screen;
-        color: var(--mra-black);
+        color: var(--black);
     }
 
     p {
