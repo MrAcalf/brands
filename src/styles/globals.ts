@@ -50,11 +50,10 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 2rem;
         line-height: 3rem;
         margin-bottom: 1rem;
+        font-weight: 500;
     }
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: montserrat, sans-serif;
-      font-weight: 800;
       font-style: normal;
       margin-bottom: 2rem;
     }
